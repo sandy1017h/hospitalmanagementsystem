@@ -1,0 +1,316 @@
+
+.container.marketing {
+  margin-top: 40px;
+}
+
+
+.container.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.container.marketing img.rounded-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.container.marketing h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.container.marketing p {
+  font-size: 1.1em;
+}
+
+.container.marketing a.btn-secondary {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.bg-3{
+  background-color: aqua;
+  width: 100%;
+}
+h2{
+  color: rgb(227, 103, 15);
+}
+
+
+.center {
+  margin: 0 auto;
+}
+
+.awesome {
+  font-family: futura;
+  font-style: italic;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #313131;
+  font-size: 45px;
+  font-weight: bold;
+  position: relative;
+  animation: colorchange 20s infinite alternate;
+}
+.awesomes{
+  font-family: futura;
+  font-style: italic;
+  width: 100%;
+  margin: 0 auto;
+  color: #313131;
+  font-size: 45px;
+  font-weight: bold;
+  position: relative;
+  animation: colorchange 20s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+.bg-5{
+  background-color: rgb(209, 176, 220);
+  height: 40px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  height: 40%;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.btns {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btns:hover {
+  opacity:1;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.modal {
+  display: none;
+  position: fix;
+  overflow: auto;
+  padding-top: 50px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 100%;
+
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.carousel-inner img {
+  height: 500px;
+  max-width: 100%;
+  justify-content: center;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+  width: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: #fff;
+}
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+.carousel-indicators .active {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.bg-custom{
+  background-color: #f1c842;
+}
+
+.container {
+  padding: 2rem 0rem;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 400px;
+  }
+  .modal-dialog .modal-content {
+    padding: 1rem;
+  }
+}
+.modal-header .close {
+  margin-top: -1.5rem;
+}
+
+.form-title {
+  margin: -2rem 0rem 2rem;
+}
+
+.btn-round {
+  border-radius: 3rem;
+}
+
+.delimiter {
+  padding: 1rem;
+}
+
+.social-buttons .btn {
+  margin: 0 0.5rem 1rem;
+}
+
+.signup-section {
+  padding: 0.3rem 0rem;
+}
+
+/* Add this CSS to your styles.css or equivalent file */
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+  border-bottom: 0;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.btn-info {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.btn-info:hover {
+  background-color: #0056b3;
+  border: 1px solid #0056b3;
+}
+
+.text-muted {
+  color: #888;
+}
+
